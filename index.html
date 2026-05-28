@@ -610,7 +610,6 @@ function mascaraTel(el) {
 // GERAR PIX (Abacate Pay)
 // ════════════════════════════════════════
 async function gerarPix() {
-  if (!abacateKey) { mostrarErro('erroStep4','Insira a API Key da Abacate Pay na configuração acima.'); return; }
 
   const nome  = v('f_pnome');
   const cpf   = v('f_cpf');
